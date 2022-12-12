@@ -1,0 +1,10 @@
+ShootBall/Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/Android/iz17e/libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+ShootBall/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/module_bundle/release/out/base.zip filter=lfs diff=lfs merge=lfs -text
+ShootBall/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-10_1_0.bundle filter=lfs diff=lfs merge=lfs -text
