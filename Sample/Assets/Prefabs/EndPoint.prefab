@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5276627613628025369}
   - component: {fileID: 177518029}
   - component: {fileID: -2157872940106081948}
+  - component: {fileID: 3627343983140229031}
   m_Layer: 0
   m_Name: EndPoint
   m_TagString: EndPoint
@@ -124,3 +125,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c26052f69905ed4429c724fc93331c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3627343983140229031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276627613628025368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3004ebcfb1fce1499ba8642a602a741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dir: 0
+  _rotationArr:
+  - 180
+  - 0
+  - 270
+  - 90
