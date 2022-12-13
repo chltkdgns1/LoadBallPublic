@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4585383912104567600}
   - component: {fileID: 6945050257517971689}
   - component: {fileID: -225603966402773825}
+  - component: {fileID: 1010388310327236885}
   m_Layer: 0
   m_Name: Potal
   m_TagString: Potal
@@ -114,3 +115,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1010388310327236885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4585383912104567603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d567d48f13af1b4ea923996026a8a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextObject: {fileID: 0}
