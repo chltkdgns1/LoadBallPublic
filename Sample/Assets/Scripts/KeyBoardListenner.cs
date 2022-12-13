@@ -14,13 +14,35 @@ public class KeyBoardListenner : MonoBehaviour
 
     void MovePlayer()
     {
+
+        if (Input.anyKeyDown == false) return;
+
+        Debug.Log("KeyDown");
+
         if(movePlayer == null)
         {
-            movePlayer = GameObject.Find("BallPlayer").GetComponent<Move>(); 
+            var player = GameObject.Find("BallPlayer");
+
+            if (player == null)
+            {
+                Debug.LogError("BallPlayer dont exist on Scene");
+                return;
+            }
+
+            movePlayer = player.GetComponent<Move>(); 
             
             if(movePlayer == null)
             {
-                Debug.LogError("BallPlayer dont exist on Scene");
+                Debug.LogError("BallPlayer Move Component dont exist on Scene");
+                return;
+            }
+        }
+        else
+        {
+            GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+            if(players.Length > 1)
+            {
+                Debug.LogError("플레이어가 여러명입니다. 한명의 플레이어만 선정해주세요. 또는 하나의 스테이지만 올려서 만들어주세요!");
                 return;
             }
         }
